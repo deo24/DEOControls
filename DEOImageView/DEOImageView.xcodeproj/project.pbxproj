@@ -13,7 +13,6 @@
 		709155631EA0CD1900DAEE61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709155611EA0CD1900DAEE61 /* Main.storyboard */; };
 		709155651EA0CD1900DAEE61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 709155641EA0CD1900DAEE61 /* Assets.xcassets */; };
 		709155681EA0CD1900DAEE61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 709155661EA0CD1900DAEE61 /* LaunchScreen.storyboard */; };
-		709155751EA0D0D300DAEE61 /* DEOImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 709155741EA0D0D300DAEE61 /* DEOImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +26,6 @@
 		709155641EA0CD1900DAEE61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		709155671EA0CD1900DAEE61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		709155691EA0CD1900DAEE61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		709155731EA0D0D300DAEE61 /* DEOImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEOImageView.h; sourceTree = "<group>"; };
-		709155741EA0D0D300DAEE61 /* DEOImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEOImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +62,6 @@
 				7091555C1EA0CD1900DAEE61 /* AppDelegate.m */,
 				7091555E1EA0CD1900DAEE61 /* ViewController.h */,
 				7091555F1EA0CD1900DAEE61 /* ViewController.m */,
-				709155721EA0D0D300DAEE61 /* DEOImageView */,
 				709155611EA0CD1900DAEE61 /* Main.storyboard */,
 				709155641EA0CD1900DAEE61 /* Assets.xcassets */,
 				709155661EA0CD1900DAEE61 /* LaunchScreen.storyboard */,
@@ -81,15 +77,6 @@
 				709155591EA0CD1900DAEE61 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		709155721EA0D0D300DAEE61 /* DEOImageView */ = {
-			isa = PBXGroup;
-			children = (
-				709155731EA0D0D300DAEE61 /* DEOImageView.h */,
-				709155741EA0D0D300DAEE61 /* DEOImageView.m */,
-			);
-			path = DEOImageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,7 +155,6 @@
 				709155601EA0CD1900DAEE61 /* ViewController.m in Sources */,
 				7091555D1EA0CD1900DAEE61 /* AppDelegate.m in Sources */,
 				7091555A1EA0CD1900DAEE61 /* main.m in Sources */,
-				709155751EA0D0D300DAEE61 /* DEOImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
