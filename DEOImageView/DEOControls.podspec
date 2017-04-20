@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name         = "DEOControls"
   s.version      = "0.0.3"
-  s.summary      = "处理跑马灯"
+  s.summary      = "DEOControls"
    s.homepage     = "https://github.com/deo24/DEOControls"
     s.license      = "MIT"
     s.author             = { "deo24" => "email@address.com" }
