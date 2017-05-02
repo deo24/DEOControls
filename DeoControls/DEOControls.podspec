@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.author       = { "deo24" => "email@address.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/deo24/DEOControls.git", :tag => "#{s.version}" }
-  s.source_files  = "DEOControls", "DeoControls/DeoControls/DeoControls/*.{h,m}"
+  s.source_files  = "DEOControls", "DeoControls/DeoControls/DeoControls/PullDownView/*.{h,m}"
   s.requires_arc = true
 end

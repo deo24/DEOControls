@@ -6,6 +6,8 @@
 //  Copyright (c) 2014年 杨栋. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
+
 #define NOTIFY_PULLDOWNVIEW @"PullDownView"
 
 typedef NS_OPTIONS(NSUInteger, PullDownDirection) {

@@ -13,6 +13,7 @@
 		70C7FDE81EB8223B00145B21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70C7FDE61EB8223B00145B21 /* Main.storyboard */; };
 		70C7FDEA1EB8223B00145B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70C7FDE91EB8223B00145B21 /* Assets.xcassets */; };
 		70C7FDED1EB8223B00145B21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70C7FDEB1EB8223B00145B21 /* LaunchScreen.storyboard */; };
+		70C7FDF81EB8267900145B21 /* PullDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C7FDF71EB8267900145B21 /* PullDownView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		70C7FDE91EB8223B00145B21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70C7FDEC1EB8223B00145B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70C7FDEE1EB8223B00145B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70C7FDF61EB8267900145B21 /* PullDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullDownView.h; sourceTree = "<group>"; };
+		70C7FDF71EB8267900145B21 /* PullDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullDownView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,7 @@
 				70C7FDE11EB8223B00145B21 /* AppDelegate.m */,
 				70C7FDE31EB8223B00145B21 /* ViewController.h */,
 				70C7FDE41EB8223B00145B21 /* ViewController.m */,
+				70C7FDF41EB8267900145B21 /* DeoControls */,
 				70C7FDE61EB8223B00145B21 /* Main.storyboard */,
 				70C7FDE91EB8223B00145B21 /* Assets.xcassets */,
 				70C7FDEB1EB8223B00145B21 /* LaunchScreen.storyboard */,
@@ -77,6 +81,23 @@
 				70C7FDDE1EB8223B00145B21 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70C7FDF41EB8267900145B21 /* DeoControls */ = {
+			isa = PBXGroup;
+			children = (
+				70C7FDF51EB8267900145B21 /* PullDownView */,
+			);
+			path = DeoControls;
+			sourceTree = "<group>";
+		};
+		70C7FDF51EB8267900145B21 /* PullDownView */ = {
+			isa = PBXGroup;
+			children = (
+				70C7FDF61EB8267900145B21 /* PullDownView.h */,
+				70C7FDF71EB8267900145B21 /* PullDownView.m */,
+			);
+			path = PullDownView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70C7FDE51EB8223B00145B21 /* ViewController.m in Sources */,
+				70C7FDF81EB8267900145B21 /* PullDownView.m in Sources */,
 				70C7FDE21EB8223B00145B21 /* AppDelegate.m in Sources */,
 				70C7FDDF1EB8223B00145B21 /* main.m in Sources */,
 			);
@@ -312,6 +334,7 @@
 				70C7FDF31EB8223B00145B21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -90,10 +90,6 @@
 
 - (void)dismiss:(NSNotification *)notify
 {
-    if (self.isGolden) {
-        self.mMenuView.image = nil;
-    }
-
     [self withdraw];
 }
 
