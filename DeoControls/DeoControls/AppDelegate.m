@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  DEOImageView
+//  DeoControls
 //
-//  Created by 杨栋 on 2017/4/14.
+//  Created by 杨栋 on 2017/5/2.
 //  Copyright © 2017年 杨栋. All rights reserved.
 //
 
